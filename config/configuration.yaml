@@ -1,6 +1,6 @@
 homeassistant:
   external_url: !secret ahsl_base_url
-  internal_url: http://192.168.7.187:8123
+  internal_url: http://homeassistant.local:8123
   customize: !include customize.yaml
   auth_providers:
     - type: homeassistant
